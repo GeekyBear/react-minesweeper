@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+
+.square {
+    width: 3vw;
+    height: 3vw;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.unrevealed {
+    background-color: #bbb;
+}
+
+.square .revealed {
+    background-color: green;
+}
+
+.flagged {
+    background-color: #f00;
+}
